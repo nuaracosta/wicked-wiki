@@ -131,8 +131,8 @@ footer {
 
 /* ACTUAL CONTENT FOR PAGES */
 
-/* elphaba */
-.elphaba-container {
+/* CHARACTER CONTENT */
+.character-container {
     display: flex;
     align-items: center;     /* vertically centers text with the image */
     gap: 40px;               /* space between image + text */
@@ -141,23 +141,26 @@ footer {
 }
 
 /* Image styling */
-#elphie-pic {
+#character-pic {
     width: 40%;              /* you can adjust to 35% or 30% */
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* Text block */
-.elphaba-text {
+.character-text {
     flex: 1;                 /* take remaining space */
 }
 
-.elphaba-text h1 {
+.character-text h1 {
     margin-bottom: 15px;
 }
 
-.elphaba-text p {
+.character-text p {
     font-size: 1.2rem;
     line-height: 1.7;
 }
+
+       
+
 
