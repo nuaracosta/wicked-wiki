@@ -78,6 +78,10 @@ nav ul li a:hover {
     margin: 40px auto;
 }
 
+.home section {
+    text-align: center;
+}
+
 /* ======= PAGE SECTIONS ======= */
 section {
     max-width: 900px;          /* makes boxes smaller */
@@ -119,6 +123,21 @@ button:hover, .btn:hover {
     background: #ff89a8;
     transform: translateY(-2px);
 }
+/* link decoration */
+a {
+    color: #ff89a8;
+    text-decoration: none;
+    font-weight: 600;
+    background: #d8f3dc;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    color: #e7f7ee;
+    
+}
 
 /* ======= FOOTER ======= */
 footer {
@@ -152,14 +171,17 @@ footer {
     flex: 1;                 /* take remaining space */
 }
 
-.character-text h1 {
+.character-text h1, section h1 {
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .character-text p {
     font-size: 1.2rem;
     line-height: 1.7;
 }
+
+
 
        
 
